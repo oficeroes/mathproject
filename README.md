@@ -1,5 +1,7 @@
 # mathproject
 
+本仓库的高中数学报告：[从三个 STL 文件出发：三维模型、数学测量与 AI 的边界](数学报告_三维模型与人工智能.md)。报告基于对三个 STL 文件的实测——包围盒、表面积、体积与封闭性检查，全部数据可通过 `python stl_analysis.py` 复现。分析脚本本身也在仓库中（`stl_analysis.py`，约 70 行，依赖 numpy）。
+
 本仓库目前保存三份以数字命名的 STL 模型文件（`1.stl`、`2.stl`、`3.stl`）和一份 GIF 动图（`AnimatedEmojies-512px-4.gif`）。可使用支持 STL 的三维查看软件打开模型。
 
 ![直接读取本仓库三份 STL 顶点后绘制的预览](assets/stl_preview.png)
